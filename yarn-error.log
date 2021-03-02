@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/wangxincheng/.nvm/versions/node/v12.1.0/bin/node /Users/wangxincheng/.nvm/versions/node/v12.1.0/bin/yarn add webpack webpack-server-cli -D
+
+PATH: 
+  /usr/local/opt/openssl@1.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/opt/openssl@1.1/bin:/Users/wangxincheng/.nvm/versions/node/v12.1.0/bin:/Users/wangxincheng/android-sdk-macosx/platform-tools:/Users/wangxincheng/android-sdk-macosx/tools:/Users/wangxincheng/android-sdk-macosx/build-tools/28.0.3:/Users/wangxincheng/android-sdk-macosx/gradle/gradle-5.5.1/bin:/Users/wangxincheng/android-sdk-macosx/gradle/gradle-5.5.1:/Users/wangxincheng/android-sdk-macosx/emulator:/Users/wangxincheng/Applications/flutter/bin:/usr/local/mongodb/bin:/usr/local/mysql/bin:/Users/wangxincheng/android-sdk-macosx/platform-tools:/Users/wangxincheng/android-sdk-macosx/tools:/Users/wangxincheng/android-sdk-macosx/build-tools/28.0.3:/Users/wangxincheng/android-sdk-macosx/gradle/gradle-5.5.1/bin:/Users/wangxincheng/android-sdk-macosx/gradle/gradle-5.5.1:/Users/wangxincheng/android-sdk-macosx/emulator:/Users/wangxincheng/Applications/flutter/bin:/usr/local/mongodb/bin:/usr/local/mysql/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.1.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npmjs.org/webpack-server-cli: Not found
+      at Request.params.callback [as _callback] (/Users/wangxincheng/.nvm/versions/node/v12.1.0/lib/node_modules/yarn/lib/cli.js:66830:18)
+      at Request.self.callback (/Users/wangxincheng/.nvm/versions/node/v12.1.0/lib/node_modules/yarn/lib/cli.js:140464:22)
+      at Request.emit (events.js:196:13)
+      at Request.<anonymous> (/Users/wangxincheng/.nvm/versions/node/v12.1.0/lib/node_modules/yarn/lib/cli.js:141436:10)
+      at Request.emit (events.js:196:13)
+      at IncomingMessage.<anonymous> (/Users/wangxincheng/.nvm/versions/node/v12.1.0/lib/node_modules/yarn/lib/cli.js:141358:12)
+      at Object.onceWrapper (events.js:284:20)
+      at IncomingMessage.emit (events.js:201:15)
+      at endReadableNT (_stream_readable.js:1130:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:17)
+
+npm manifest: 
+  {
+    "name": "play-plane-webpack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "wxc",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
